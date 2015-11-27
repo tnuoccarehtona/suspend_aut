@@ -1,0 +1,4 @@
+LOCKER_APP="/usr/bin/gnome-screensaver"
+APP_ARGS=
+LOCKER_COMMAND="/usr/bin/gnome-screensaver-command -a"
+SUSPEND_COMMAND="dbus-send --system --print-reply  --dest=\"org.freedesktop.UPower\" /org/freedesktop/UPower org.freedesktop.UPower.Suspend"

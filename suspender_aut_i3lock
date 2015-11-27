@@ -1,0 +1,4 @@
+LOCKER_APP=
+APP_ARGS=
+LOCKER_COMMAND="/usr/bin/i3lock -c 000000 -n"
+SUSPEND_COMMAND="dbus-send --system --print-reply  --dest=\"org.freedesktop.UPower\" /org/freedesktop/UPower org.freedesktop.UPower.Suspend"
