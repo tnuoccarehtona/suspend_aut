@@ -20,7 +20,7 @@ elif which i3lock;then
 	echo "installing suspender_aut config file for i3lock"
 	cp suspender_aut_i3lock /etc/default/suspender_aut
 else
-	echo "No recommended screenlocker is installed, so that an default configuration file is used."
+	echo "No recommended screenlocker is installed, so that an empty configuration file is used."
 	cp suspender_aut_empty /etc/default/suspender_aut
 fi
 echo "installing suspender_aut.sh"
